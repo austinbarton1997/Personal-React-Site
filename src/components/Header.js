@@ -13,7 +13,7 @@ export default function Header() {
                 <ul class="navbar-nav">
                     <a class="nav-link navNumbers" href="#about"> About&nbsp;</a>
                     <a class="nav-link navNumbers" href="#projects"> Projects&nbsp;</a>
-                    <a class="nav-link knavNumberslADde" href="#contact"> Contact&nbsp;</a>
+                    <a class="nav-link navNumbers" href="#contact"> Contact&nbsp;</a>
                 </ul>
                 <button type="button" class="btn btn-outline-light">Resume</button>
             </div>
