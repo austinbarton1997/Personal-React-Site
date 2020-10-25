@@ -46,7 +46,6 @@ a {
 
 .intro {
   margin: 0px auto;
-  max-width: 1000px;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
