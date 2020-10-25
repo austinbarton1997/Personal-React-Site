@@ -11,6 +11,13 @@ a {
   margin: 1rem;
 }
 
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -45,7 +52,8 @@ a {
 }
 
 .intro {
-  margin: 0px auto;
+  margin: 0px;
+  padding: 0px;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
