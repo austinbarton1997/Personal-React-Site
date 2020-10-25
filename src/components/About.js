@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <div class="aboutP">
+        <div class="aboutP" id="about">
             <div class="jumbotron">
                 <div class="aboutP">
                     <h1 class="aboutTitle aboutLine">About Me</h1>
