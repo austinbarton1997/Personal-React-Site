@@ -1,32 +1,161 @@
-.App {
-  text-align: center;
+body {
+  background-color: #596e79;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+nav {
+  background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  margin: 1rem;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-nav, .navbar-brand {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  counter-increment: item 1;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  color: white;
+  margin: 1rem 2rem 0 2rem;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: lightgray;
+}
+
+.intro {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  color: rgb(100, 255, 218);
+  margin: 0px 0px 20px 3px;
+  font-size: 16px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+}
+
+.intro-name {
+  font-weight: 600;
+  color: white;
+  font-size: 80px;
+  line-height: 1.1;
+  margin: 0px;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.intro-about {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.1;
+  color: lightgray;
+  margin: 0px;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.intro-about-2 {
+  color: lightgray;
+  line-height: 1.3;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.jumbotron {
+  margin-left: -20%;
+  background-color: transparent;
+}
+
+.aboutLine::before {
+  counter-increment: section 1;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  color: rgb(100, 255, 218);
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+}
+
+.projectsLine::before {
+  counter-increment: section 2;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  color: rgb(100, 255, 218);
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+}
+
+.aboutLine::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: rgb(48, 60, 85);
+  position: relative;
+  top: -20px;
+  margin-left: 35%;
+}
+
+.projectsLine::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: rgb(48, 60, 85);
+  position: relative;
+  top: -20px;
+  margin-left: 65%;
+}
+
+.klADde::before {
+  content: "0" counter(item) ".";
+  text-align: right;
+  color: rgb(100, 255, 218);
+  font-size: 12px;
+}
+
+.aboutTitle {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutP {
+  width: 65%;
+  margin-left: 12.25%;
+  color: lightgray;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
 }
