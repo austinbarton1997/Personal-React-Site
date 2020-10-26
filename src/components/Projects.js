@@ -24,7 +24,7 @@ export default function Projects() {
                         <p class="project-paragraph1">A platform built for your notes, styled after apple notes.
                         Keep track of notes and things you need to get done! Delete the note when you're done with a simple click.</p>
                     </div>
-                    <img src='https://i.ibb.co/hZFs20C/movieApp.png' alt="tinderMovies" className="projectIMG" />
+                    <img src='https://i.ibb.co/T1mM34N/notes.png' alt="tinderMovies" className="projectIMG" />
                 </li>
             </ul>
         </div>
