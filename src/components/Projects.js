@@ -3,7 +3,7 @@ import React from "react"
 export default function Projects() {
     return (
         <div class="container">
-            <h1 class="about-me aboutLine" id="about">About Me<hr /></h1>
+            <h1 class="about-me aboutLine" id="about">Projects I've Built<hr /></h1>
             <ul class="list-unstyled">
                 <li class="media">
                     <img src='https://i.ibb.co/hZFs20C/movieApp.png' alt="tinderMovies" className="projectIMG" />

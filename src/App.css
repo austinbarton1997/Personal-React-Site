@@ -7,7 +7,7 @@ body {
 
 /* MOBILE */
 
-@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
+@media (min-width: 320px) and (max-width: 480px) {
   /* INTRODUCTION */
   .name {
     font-weight: 600;
@@ -58,11 +58,20 @@ body {
     font-size: 1.5rem;
     width: 50%;
   }
+  .projectIMG {
+    position: relative;
+    visibility: visible;
+    width: 50%;
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 /* DESKTOP */
 
-@media (min-width:1307px) {
+@media (min-width: 481px) {
   /* INTRODUCTION */
   .name {
     font-weight: 600;
@@ -109,6 +118,15 @@ body {
   }
   .rightVerticalLine {
     visibility: visible;
+  }
+  .projectIMG {
+    visibility: visible;
+    width: 50%;
+    height: 20%;
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
@@ -260,6 +278,7 @@ body {
   padding: 25px;
   float: left;
   width: 99%;
+  margin-bottom: 15%;
   color: white;
 }
 
@@ -285,7 +304,7 @@ body {
   color: lightgrey;
 }
 
-.leftLine {
+.dxVzdv {
   width: 40px;
   position: fixed;
   bottom: 0px;
@@ -324,15 +343,6 @@ body {
   -webkit-box-align: center;
   align-items: center;
   position: relative;
-}
-
-.projectIMG {
-  position: relative;
-  width: 50%;
-  padding: 25px;
-  border-radius: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .emailCenter {
