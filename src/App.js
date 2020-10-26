@@ -1,17 +1,20 @@
-import React from 'react';
-import Header from "./components/Header"
-import Home from "./components/Home"
-import About from "./components/About"
-import Projects from "./components/Projects"
 import './App.css';
+import Navbar from "./components/Navbar"
+import Introduction from "./components/Introduction"
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Left from './components/Left';
+import Right from './components/Right'
 
 function App() {
   return (
-    <div class="root">
-      <Header />
-      <Home />
+    <div>
+      <Navbar />
+      <Introduction />
       <About />
       <Projects />
+      <Left />
+      <Right />
     </div>
   );
 }

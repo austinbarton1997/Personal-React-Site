@@ -1,22 +1,21 @@
 import React from "react"
 
-export default function Header() {
+export default function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg">
-            {/* <a class="navbar-brand" href="#">Austin Barton</a> */}
             <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-                <ul class="navbar-nav">
-                    <a class="nav-link navNumbers" href="#about"> About&nbsp;</a>
-                    <a class="nav-link navNumbers" href="#projects"> Projects&nbsp;</a>
-                    <a class="nav-link navNumbers" href="#contact"> Contact&nbsp;</a>
+                <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav">
+                        <a class="nav-link navNumbers" href="#about"> About&nbsp;</a>
+                        <a class="nav-link navNumbers" href="#projects"> Projects&nbsp;</a>
+                        <a class="nav-link navNumbers" href="#contact"> Contact&nbsp;</a>
+                    </ul>
                 </ul>
                 <button type="button" class="btn btn-outline-light">Resume</button>
             </div>
-        </nav>
+        </nav >
     )
 }
