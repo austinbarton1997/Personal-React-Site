@@ -8,7 +8,7 @@ export default function Introduction() {
                 <h1 class="name">Austin Barton</h1>
                 <h1 class="skill">I build web applications.</h1>
                 <p class="intro-paragraph">I'm a self-motivated software engineer who is skilled in building exceptional websites and applications.</p>
-                <button type="button" class="btn btn-outline-light intro-btn">Get In Touch</button>
+                <a href="mailto:mail@austinbarton.dev" class="btn btn-outline-light intro-btn">Get In Touch</a>
             </div>
         </div>
     )

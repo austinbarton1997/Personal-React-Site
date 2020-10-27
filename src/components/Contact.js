@@ -8,7 +8,7 @@ export default function Contact() {
                 <h1 class="contact_me" id="about">Get In Touch</h1>
                 <p class="contactParagraph">I am actively looking for new opportunities and open to remote work or relocation. I would love to hear from you!</p>
                 <div class="text-center">
-                    <button type="button" class="btn btn-outline-light contact_btn">Say Hello</button>
+                    <a href="mailto:mail@austinbarton.dev" class="btn btn-outline-light contact_btn">Say Hello</a>
                 </div>
             </div>
         </div>
