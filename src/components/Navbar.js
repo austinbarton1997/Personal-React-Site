@@ -15,7 +15,7 @@ export default function Navbar() {
                         <a class="nav-link navNumbers" href="#contact"> Contact&nbsp;</a>
                     </ul>
                 </ul>
-                <a href={pdf} class="btn btn-outline-light">Resume</a>
+                <a href={Pdf} class="btn btn-outline-light">Resume</a>
             </div>
         </nav >
     )
