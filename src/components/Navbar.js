@@ -1,4 +1,5 @@
 import React from "react"
+import Pdf from '../resume.pdf';
 
 export default function Navbar() {
     return (
@@ -14,8 +15,7 @@ export default function Navbar() {
                         <a class="nav-link navNumbers" href="#contact"> Contact&nbsp;</a>
                     </ul>
                 </ul>
-                <button type="button" class="btn btn-outline-light">Resume</button>
-                <a href="../resume.pdf" class="btn btn-outline-light">Resume</a>
+                <a href={pdf} class="btn btn-outline-light">Resume</a>
             </div>
         </nav >
     )
