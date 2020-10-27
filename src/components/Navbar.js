@@ -15,6 +15,7 @@ export default function Navbar() {
                     </ul>
                 </ul>
                 <button type="button" class="btn btn-outline-light">Resume</button>
+                <a href="../resume.pdf" class="btn btn-outline-light">Resume</a>
             </div>
         </nav >
     )
