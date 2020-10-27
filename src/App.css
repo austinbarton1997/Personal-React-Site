@@ -7,7 +7,7 @@ body {
 
 /* MOBILE */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 799px) {
   /* INTRODUCTION */
   .name {
     font-weight: 600;
@@ -28,26 +28,6 @@ body {
     line-height: 1.3;
     font-size: 20px;
   }
-  .aboutLine::before {
-    counter-increment: section 1;
-    content: "0" counter(section) ".";
-    margin-right: 10px;
-    font-weight: normal;
-    color: #64ffdb;
-    font-size: 20px;
-    position: relative;
-    bottom: 4px;
-  }
-  .projectLine::before {
-    counter-increment: section 1;
-    content: "0" counter(section) ".";
-    margin-right: 10px;
-    font-weight: normal;
-    color: #64ffdb;
-    font-size: 20px;
-    position: relative;
-    bottom: 4px;
-  }
   .verticalLine {
     visibility: hidden;
   }
@@ -60,8 +40,8 @@ body {
   }
   .projectIMG {
     position: relative;
-    visibility: visible;
-    width: 50%;
+    visibility: hidden;
+    width: 0;
     padding: 25px;
     border-radius: 30px;
     margin-top: auto;
@@ -71,7 +51,7 @@ body {
 
 /* DESKTOP */
 
-@media (min-width: 481px) {
+@media screen and (min-width: 800px) {
   /* INTRODUCTION */
   .name {
     font-weight: 600;
@@ -92,27 +72,7 @@ body {
     line-height: 1.3;
     font-size: 20px;
   }
-  .aboutLine::before {
-    counter-increment: section 1;
-    content: "0" counter(section) ".";
-    margin-right: 10px;
-    font-weight: normal;
-    color: #64ffdb;
-    font-size: 20px;
-    position: relative;
-    bottom: 4px;
-  }
   /* PROJECTS */
-  .projectLine::before {
-    counter-increment: section 1;
-    content: "0" counter(section) ".";
-    margin-right: 10px;
-    font-weight: normal;
-    color: #64ffdb;
-    font-size: 20px;
-    position: relative;
-    bottom: 4px;
-  }
   .verticalLine {
     visibility: visible;
   }
@@ -189,6 +149,10 @@ body {
 .about-me {
   color: white;
   font-weight: normal;
+}
+
+.about-line {
+  counter-increment: item 1;
 }
 
 .about_skills {
@@ -363,4 +327,71 @@ body {
   margin: 0px auto;
   background-color: #a8b2d1;
   float: right;
+}
+
+/* CONTACT */
+
+.contact_me {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  margin: 0px 0px 20px;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.num1::before {
+  counter-increment: section 1;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  color: rgb(100, 255, 218);
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+}
+
+.num2::before {
+  counter-increment: section 2;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  color: rgb(100, 255, 218);
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+}
+
+.num3::before {
+  counter-increment: section 3;
+  content: "0" counter(section) ".";
+  text-align: right;
+  color: #64ffdb;
+  font-size: 16px;
+}
+
+.contactView {
+  margin-bottom: 10%;
+}
+
+.contact {
+  color: rgb(100, 255, 218);
+  font-size: 16px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  text-align: center;
+}
+
+.contactParagraph {
+  color: lightgray;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.contact_btn {
+  margin-top: 25px;
+  width: 20%;
 }
