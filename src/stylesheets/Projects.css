@@ -14,7 +14,11 @@
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: normal;
-    text-align: right;
+    text-align: left;
+}
+
+.featuredTitle:hover {
+    color: rgb(238, 238, 238);
 }
 
 .featuredText {
