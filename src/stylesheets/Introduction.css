@@ -1,0 +1,24 @@
+/* INTRODUCTION */
+
+.jumbotron {
+    margin: 5% auto;
+    padding-left: 0px;
+    background-color: transparent;
+}
+
+.introduction {
+    color: rgb(100, 255, 219);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.intro-paragraph {
+    color: rgb(211, 211, 211);
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.intro-btn {
+    font-size: 1.5rem;
+    width: 40%;
+}

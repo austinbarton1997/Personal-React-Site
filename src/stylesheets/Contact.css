@@ -1,0 +1,66 @@
+/* CONTACT */
+
+.contact_me {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    margin: 0px 0px 20px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.num1::before {
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+}
+
+.num2::before {
+    counter-increment: section 2;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+}
+
+.num3::before {
+    counter-increment: section 3;
+    content: "0" counter(section) ".";
+    text-align: right;
+    color: rgb(100, 255, 219);
+    font-size: 16px;
+}
+
+.contactView {
+    margin-bottom: 10%;
+}
+
+.contact {
+    color: rgb(100, 255, 218);
+    font-size: 16px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    text-align: center;
+}
+
+.contactParagraph {
+    color: rgb(211, 211, 211);
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.contact_btn {
+    margin-top: 25px;
+    width: 20%;
+}

@@ -1,0 +1,40 @@
+/* LEFT SIDE */
+
+.github, .linkedin {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.github:hover {
+    color: rgb(211, 211, 211);
+}
+
+.linkedin:hover {
+    color: rgb(211, 211, 211);
+}
+
+.lineLeft {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+
+.verticalLine::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: rgb(168, 178, 209);
+}
