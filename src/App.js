@@ -7,7 +7,7 @@ import './stylesheets/Right.css';
 import './stylesheets/Navbar.css';
 import './stylesheets/Projects.css';
 import React from "react";
-import Navbar from "./components/";
+import Navbar from "./components/Navbar";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Projects from "./components/Projects";
