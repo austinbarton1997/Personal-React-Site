@@ -10,14 +10,6 @@
     margin-bottom: 30%;
 }
 
-.featuredText {
-    margin-top: 5%;
-    color: rgb(100, 255, 219);
-    font-size: 16px;
-    font-weight: normal;
-    text-align: right;
-}
-
 .featuredTitle {
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -25,7 +17,7 @@
     text-align: right;
 }
 
-.featuredText1 {
+.featuredText {
     margin-top: 5%;
     color: rgb(100, 255, 219);
     font-size: 16px;
@@ -33,25 +25,7 @@
     text-align: left;
 }
 
-.featuredTitle1 {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: normal;
-    text-align: left;
-}
-
 .project-paragraph {
-    background-color: rgb(34, 40, 49);
-    box-shadow: 10px 10px rgb(238, 238, 238);
-    border-radius: 3px;
-    text-align: right;
-    padding: 25px;
-    float: right;
-    width: 99%;
-    color: rgb(255, 255, 255);
-}
-
-.project-paragraph1 {
     background-color: rgb(34, 40, 49);
     box-shadow: 10px 10px rgb(238, 238, 238);
     border-radius: 3px;
