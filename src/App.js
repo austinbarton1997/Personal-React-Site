@@ -7,7 +7,13 @@ import './stylesheets/Right.css';
 import './stylesheets/Navbar.css';
 import './stylesheets/Projects.css';
 import React from "react";
-import { Navbar, Introduction, About, Projects, Left, Right, Contact } from "./components/";
+import Navbar from "./components/";
+import Introduction from "./components/Introduction";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Left from './components/Left';
+import Right from './components/Right';
+import Contact from './components/Contact';
 
 function App() {
   return (
