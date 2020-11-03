@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Projects() {
     return (
-        <div className="container">
+        <div className="container projectContainer">
             <h1 className="aboutLine num2 aboutMe" id="projects">Projects I've Built<hr /></h1>
             <ul className="list-unstyled">
                 <li className="media">
