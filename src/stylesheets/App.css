@@ -53,7 +53,7 @@ body {
     position: relative;
     margin-left: -20px;
   }
-  .imgOutline {
+  .meImg::after {
     position: absolute;
     border: 2px solid rgb(100, 255, 218);
     top: 20px;
@@ -102,7 +102,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .imgOutline {
+  .meImg::after {
     position: absolute;
     border: 2px solid rgb(100, 255, 218);
     top: 20px;
@@ -118,7 +118,7 @@ body {
   }
   .meImg {
     position: relative;
-    width: 350px;
+    width: 250px;
   }
   .align {
     display: flex;
