@@ -34,3 +34,10 @@
     font-size: 14px;
     line-height: 12px;
 }
+
+.meImg {
+  position: relative;
+  width: 40%;
+  max-width: 300px;
+  margin-left: 60px;
+}
