@@ -116,7 +116,7 @@ body {
   }
   .meImg {
     position: relative;
-    width: 40%;
+    width: 100%;
     max-width: 300px;
     margin-left: 60px;
   }
