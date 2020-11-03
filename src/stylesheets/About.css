@@ -39,24 +39,3 @@
   width: 60%;
   max-width: 480px;
 }
-
-.aboutParagraph {
-  color: rgb(211, 211, 211);
-  line-height: 1.3;
-  font-size: 20px;
-}
-
-.align {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: flex-start;
-}
-
-.meImg {
-  position: relative;
-  width: 40%;
-  max-width: 300px;
-  margin-left: 60px;
-}
