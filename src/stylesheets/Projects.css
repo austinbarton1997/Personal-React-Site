@@ -1,11 +1,3 @@
-/* PROJECTS */
-.projectContainer {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: flex-start;
-}
 
 .projects {
     margin-bottom: 30%;
