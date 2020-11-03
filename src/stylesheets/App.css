@@ -53,6 +53,9 @@ body {
     position: relative;
     margin-left: -20px;
     border: 2px solid rgb(100, 255, 218);
+    border-radius:50%;
+   -moz-border-radius:50%;
+   -webkit-border-radius:50%;
   }
   .align {
     display: block;
@@ -94,6 +97,9 @@ body {
     position: relative;
     width: 250px;
     border: 2px solid rgb(100, 255, 218);
+    border-radius:50%;
+   -moz-border-radius:50%;
+   -webkit-border-radius:50%;
   }
   .align {
     display: flex;
