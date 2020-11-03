@@ -1,4 +1,10 @@
 /* PROJECTS */
+.projectContainer {
+    width: 100%;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .project {
     text-align: right;
