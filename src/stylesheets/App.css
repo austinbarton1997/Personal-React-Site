@@ -101,6 +101,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
   }
+  /* IMG OUTLINES */
   .imgOutline {
     border: 2px solid rgb(100, 255, 218);
     top: 20px;
