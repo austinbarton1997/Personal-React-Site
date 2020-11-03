@@ -3,7 +3,7 @@ import React from "react"
 export default function Projects() {
     return (
         <div class="container">
-            <h1 class="about-line num2 about-me" id="projects">Projects I've Built<hr /></h1>
+            <h1 class="aboutLine num2 aboutMe" id="projects">Projects I've Built<hr /></h1>
             <ul class="list-unstyled">
                 <li class="media">
                     <div class="media-body">
