@@ -35,6 +35,11 @@
     line-height: 12px;
 }
 
+.aboutTest {
+  width: 60%;
+  max-width: 480px;
+}
+
 .align {
   display: flex;
   -webkit-box-pack: justify;
