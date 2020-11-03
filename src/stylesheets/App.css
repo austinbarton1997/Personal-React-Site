@@ -45,6 +45,9 @@ body {
     width: 70%;
     margin: 60px auto 0px;
   }
+  .align {
+    display: block;
+  }
 }
 
 /* DESKTOP */
@@ -82,5 +85,12 @@ body {
     width: 40%;
     max-width: 300px;
     margin-left: 60px;
+  }
+  .align {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: flex-start;
   }
 }
