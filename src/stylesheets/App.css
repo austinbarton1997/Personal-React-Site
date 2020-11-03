@@ -44,9 +44,14 @@ body {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .meImg {
+  .aboutImg {
     width: 70%;
     margin: 60px auto 0px;
+  }
+  .meImg {
+    width: 100%;
+    position: relative;
+    margin-left: -20px;
   }
   .align {
     display: block;

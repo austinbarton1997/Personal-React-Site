@@ -23,7 +23,9 @@ export default function About() {
                       <li class="aboutSkills currentSkills">MongoDB</li>
                   </ul>
                 </div>
-                <img src={Img} alt="austin" className="meImg" />
+                <div class="aboutImg">
+                  <img src={Img} alt="austin" className="meImg" />
+                </div>
             </div>
             </div>
         </div>
