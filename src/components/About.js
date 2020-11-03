@@ -1,4 +1,5 @@
 import React from "react"
+import Img from '../austin.png';
 
 export default function About() {
     return (
@@ -19,6 +20,7 @@ export default function About() {
                     <li class="about_skills currentSkills">MySql</li>
                     <li class="about_skills currentSkills">MongoDB</li>
                 </ul>
+                <img src={Img} alt="austin" className="meImg" />
             </div>
         </div>
     )
