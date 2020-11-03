@@ -4,7 +4,6 @@ export default function Projects() {
     return (
         <div className="container">
             <h1 className="aboutLine num2 aboutMe" id="projects">Projects I've Built<hr /></h1>
-            <div className="align">
             <ul className="list-unstyled">
                 <li className="media">
                     <div className="media-body">
@@ -28,7 +27,6 @@ export default function Projects() {
                     <img src='https://i.ibb.co/hZFs20C/movieApp.png' alt="tinderMovies" className="projectIMG" />
                 </li>
             </ul>
-            </div>
         </div>
     )
 }
