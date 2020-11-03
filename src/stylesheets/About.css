@@ -35,6 +35,14 @@
     line-height: 12px;
 }
 
+.align {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: flex-start;
+}
+
 .meImg {
   position: relative;
   width: 40%;
