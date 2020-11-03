@@ -2,8 +2,7 @@ import React from "react"
 
 export default function Projects() {
     return (
-        <div className="container">
-            <div class="projectContainer">
+        <div className="container projectContainer">
             <h1 className="aboutLine num2 aboutMe" id="projects">Projects I've Built<hr /></h1>
             <ul className="list-unstyled">
                 <li className="media">
@@ -28,7 +27,6 @@ export default function Projects() {
                     <img src='https://i.ibb.co/hZFs20C/movieApp.png' alt="tinderMovies" className="projectIMG" />
                 </li>
             </ul>
-            </div>
         </div>
     )
 }
