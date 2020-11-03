@@ -52,19 +52,7 @@ body {
     width: 250px;
     position: relative;
     margin-left: -20px;
-  }
-  .imgOutline {
     border: 2px solid rgb(100, 255, 218);
-    top: 20px;
-    left: 20px;
-    z-index: -1;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius:50%;
-   -moz-border-radius:50%;
-   -webkit-border-radius:50%;
   }
   .align {
     display: block;
@@ -102,22 +90,10 @@ body {
     margin-bottom: auto;
   }
   /* IMG OUTLINES */
-  .imgOutline {
-    border: 2px solid rgb(100, 255, 218);
-    top: 20px;
-    left: 20px;
-    z-index: -1;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius:50%;
-   -moz-border-radius:50%;
-   -webkit-border-radius:50%;
-  }
   .meImg {
     position: relative;
     width: 250px;
+    border: 2px solid rgb(100, 255, 218);
   }
   .align {
     display: flex;
