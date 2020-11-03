@@ -118,7 +118,7 @@ body {
   }
   .meImg {
     position: relative;
-    width: 100%;
+    width: 350px;
   }
   .align {
     display: flex;
