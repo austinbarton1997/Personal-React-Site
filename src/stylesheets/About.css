@@ -1,15 +1,15 @@
 /* ABOUT ME */
 
-.about-me {
+.aboutMe {
     color: rgb(255, 255, 255);
     font-weight: normal;
 }
 
-.about-line {
+.aboutLine {
     counter-increment: item 1;
 }
 
-.about_skills {
+.aboutSkills {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     overflow: hidden;
@@ -35,9 +35,15 @@
     line-height: 12px;
 }
 
-.aboutTest {
+.aboutContainer {
   width: 60%;
   max-width: 480px;
+}
+
+.aboutParagraph {
+  color: rgb(211, 211, 211);
+  line-height: 1.3;
+  font-size: 20px;
 }
 
 .align {
