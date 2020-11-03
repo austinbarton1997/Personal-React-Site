@@ -1,14 +1,3 @@
-/* PROJECTS */
-.projectContainer {
-    padding-left: -15px;
-}
-
-.project {
-    text-align: right;
-    position: relative;
-    z-index: 2;
-}
-
 .projects {
     margin-bottom: 30%;
 }
